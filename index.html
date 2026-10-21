@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Angela Garcia — web development portfolio">
+  <title>Angela Garcia — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Angela Garcia, home">A.G.</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-menu">
+      <span class="sparkle" aria-hidden="true">✦</span>
+    </button>
+  </header>
+
+  <nav class="site-menu" id="site-menu" aria-hidden="true">
+    <button class="menu-close" aria-label="Close navigation">×</button>
+    <p class="menu-label">Navigate</p>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificated</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="menu-backdrop"></div>
+
+  <main>
+    <section class="section hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Fullstack developer</p>
+        <h1>Portfolio<br><em>Angela Garcia</em></h1>
+        <a class="scroll-cue" href="#about"><span>↓</span> Scroll to discover</a>
+      </div>
+      <figure class="hero-portrait">
+        <img src="assets/img/portrait.jpg" alt="Collage portrait of Angela Garcia">
+      </figure>
+      <span class="section-index">A.G. / 2026</span>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-top"><span class="side-note">More than<br>just code</span></div>
+      <h2>About <em>Me</em></h2>
+      <div class="about-layout">
+        <div class="about-copy">
+          <p>I'm Angela, a web development student who enjoys building thoughtful, well-structured digital experiences.</p>
+          <p>I learn by making things: turning ideas into real projects while exploring the relationship between code, design and how people use technology.</p>
+          <dl class="meta">
+            <div><dt>Role</dt><dd>Web development student (DAW)</dd></div>
+            <div><dt>Currently</dt><dd>Java, TypeScript and server-side development</dd></div>
+            <div><dt>Interests</dt><dd>Web development, visual design and photography</dd></div>
+            <div><dt>Status</dt><dd>Open to opportunities</dd></div>
+          </dl>
+        </div>
+        <figure class="about-photo"><img src="assets/img/portrait.jpg" alt="Portrait of Angela Garcia"></figure>
+      </div>
+      <div class="path-block">
+        <p class="eyebrow">A work in progress</p>
+        <div class="timeline">
+          <div><span>2025</span><strong>Started DAW</strong><p>Beginning the journey.</p></div>
+          <div><span>2026</span><strong>Building projects</strong><p>Learning by doing.</p></div>
+          <div><span>Now</span><strong>Looking ahead</strong><p>Ready to keep growing.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-top"><span class="side-note">Ideas into<br>reality</span></div>
+      <h2>Projects</h2>
+      <p class="section-lead">A selection of things I've built <span>— and things I'm still imagining.</span></p>
+      <div class="projects-grid">
+        <article class="project project-featured">
+          <div class="project-image image-bloom"><span>✳</span></div>
+          <div class="project-info"><span class="eyebrow">01 / Personal project</span><h3>Bloom</h3><p>A digital journal to capture thoughts, ideas and moments.</p><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><a href="#contact">View project ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-image image-vertex"><span>V.</span></div>
+          <div class="project-info"><span class="eyebrow">02 / Web app</span><h3>Vertex</h3><p>A task manager concept with a minimal, focused approach.</p><ul class="tags"><li>TypeScript</li><li>UI</li></ul><a href="#contact">View project ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-image image-muse"><span>M.</span></div>
+          <div class="project-info"><span class="eyebrow">03 / Concept</span><h3>Muse</h3><p>A music discovery concept built around moods and moments.</p><ul class="tags"><li>Design</li><li>API</li></ul><a href="#contact">View project ↗</a></div>
+        </article>
+      </div>
+      <p class="bottom-note">Some projects solve problems. Others explore possibilities.</p>
+    </section>
+
+    <section class="section certificates-section" id="certificates">
+      <div class="section-top"><span class="side-note">Knowledge<br>keeps growing</span></div>
+      <h2>Certificates</h2>
+      <p class="section-lead">Learning never stops.</p>
+      <div class="certificate-list">
+        <article><span class="certificate-mark">G</span><div><h3>Google</h3><p>UX Design Professional Certificate</p><small>Year to be confirmed</small></div><span class="arrow">↗</span></article>
+        <article><span class="certificate-mark">◉</span><div><h3>freeCodeCamp</h3><p>Responsive Web Design</p><small>Year to be confirmed</small></div><span class="arrow">↗</span></article>
+        <article><span class="certificate-mark">◌</span><div><h3>Scrum.org</h3><p>Scrum Fundamentals</p><small>Year to be confirmed</small></div><span class="arrow">↗</span></article>
+        <article><span class="certificate-mark">▦</span><div><h3>Microsoft</h3><p>Web Development with .NET</p><small>Year to be confirmed</small></div><span class="arrow">↗</span></article>
+      </div>
+      <p class="bottom-note">Same curiosity. Different skills.</p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-top"><span class="side-note">Let's create<br>together</span></div>
+      <div class="contact-layout"><div><h2>Good ideas<br>start with<br><em>a conversation.</em></h2><p class="contact-intro">Have a project, an idea, or just want to say hi? I'd love to hear from you.</p>
+      <div class="contact-links"><a href="mailto:angela.garcia@email.com">✉ <span>angela.garcia@email.com</span></a><a href="#">in <span>LinkedIn profile</span></a><a href="#">⌘ <span>GitHub profile</span></a></div></div>
+      <figure class="contact-photo"><img src="assets/img/background.jpg" alt="Abstract pink and lavender texture"></figure></div>
+      <footer><span>Based in Spain<br>Open to opportunities</span><span>Thanks for being here ♡</span><a href="#home">Back to top ↑</a></footer>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
