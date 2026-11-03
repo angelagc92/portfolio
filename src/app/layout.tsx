@@ -8,7 +8,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Web Developer",
+  title: "Portfolio | Angela Garcia",
   description: "Personal portfolio — web development, projects and experience.",
 };
 
