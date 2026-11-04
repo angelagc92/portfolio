@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ValuesConstellation from "./ValuesConstellation";
 
 const softSkills = [
   "Creative thinking",
@@ -8,7 +9,6 @@ const softSkills = [
   "Problem-solving",
   "Curiosity & continuous learning",
 ];
-
 
 const hardSkills = [
   { name: "HTML5", icon: "html5/html5-original.svg" },
@@ -25,7 +25,6 @@ const hardSkills = [
 export default function About() {
   return (
     <section className="section container about-section" id="about">
-
       <div className="about-layout">
         <div className="about-copy">
           <span className="eyebrow">ABOUT ME</span>
@@ -65,6 +64,7 @@ export default function About() {
             structured, functional, and full of character.
           </p>
         </div>
+
         <div className="about-photo-wrap">
           <div className="about-photo">
             <Image
@@ -76,7 +76,7 @@ export default function About() {
               className="about-photo-image"
             />
           </div>
-          
+
           <span className="about-photo-frame" aria-hidden="true" />
 
           <span className="about-photo-caption">
@@ -87,6 +87,7 @@ export default function About() {
         <div className="skills-section">
           <div className="skills-group">
             <h3>Soft skills</h3>
+
             <div className="about-skill-list">
               {softSkills.map((skill) => (
                 <span className="about-skill-tag" key={skill}>
@@ -114,9 +115,10 @@ export default function About() {
                 </div>
               ))}
             </div>
-
           </div>
         </div>
+
+        <ValuesConstellation />
       </div>
     </section>
   );
