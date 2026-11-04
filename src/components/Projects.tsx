@@ -36,12 +36,11 @@ export default function Projects() {
     <section className="section container" id="projects">
       <div className="section-heading">
         <div>
-          <span className="eyebrow">SELECTED WORK</span>
-          <h2>Things I&apos;ve <span className="text-gradient">made.</span></h2>
+          <span className="eyebrow">PROJECTS</span>
+          <h2>What I&apos;ve been <span className="text-gradient">working on</span></h2>
         </div>
         <p className="section-intro">
-          A selection of projects, experiments and things I&apos;ve enjoyed
-          building along the way.
+          A selection of projects that reflect what I've been learning, building and exploring.
         </p>
       </div>
 
