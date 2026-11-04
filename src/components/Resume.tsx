@@ -6,11 +6,11 @@ export default function Resume() {
         <div>
           <span className="eyebrow">RESUME</span>
           <h2>
-            A little more <span className="text-gradient">about my journey</span>
-            <span className="about-title-sparkle">✦</span>
+            Get to know <span className="text-gradient">my background</span>
+            {/*<span className="about-title-sparkle">✦</span>*/}
           </h2>
         </div>
-        <p className="section-intro"></p>
+        <p className="section-intro">A path built on continuous learning, adaptability, and a strong work ethic across different environments.</p>
       </div>
 
       <div className="resume-grid">
@@ -104,7 +104,7 @@ export default function Resume() {
       </div>
 
       <div className="resume-cta">
-        <p className="muted">Want to know more about my background?</p>
+        <p className="muted">Take a closer look</p>
         <a href="/cv" className="resume-cta-link">
           View my full CV <span aria-hidden="true">↗</span>
         </a>

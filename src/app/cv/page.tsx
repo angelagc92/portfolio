@@ -38,20 +38,20 @@ export default function CVPage() {
                         <div className="cv-language-options">
                             <button
                                 type="button"
-                                className={language === "es" ? "active" : ""}
-                                onClick={() => setLanguage("es")}
-                                aria-pressed={language === "es"}
-                            >
-                                ES
-                            </button>
-
-                            <button
-                                type="button"
                                 className={language === "en" ? "active" : ""}
                                 onClick={() => setLanguage("en")}
                                 aria-pressed={language === "en"}
                             >
                                 EN
+                            </button>
+
+                            <button
+                                type="button"
+                                className={language === "es" ? "active" : ""}
+                                onClick={() => setLanguage("es")}
+                                aria-pressed={language === "es"}
+                            >
+                                ES
                             </button>
                         </div>
                     </div>
