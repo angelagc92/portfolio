@@ -12,7 +12,7 @@ const cvFiles: Record<Language, string> = {
 };
 
 export default function CVPage() {
-    const [language, setLanguage] = useState<Language>("es");
+    const [language, setLanguage] = useState<Language>("en");
 
     const currentCV = cvFiles[language];
 

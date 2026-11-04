@@ -24,12 +24,11 @@ export default function Certificates() {
     <section className="section container" id="certificates">
       <div className="section-heading">
         <div>
-          <span className="eyebrow">KEEPING GROWING</span>
-          <h2>Learning <span className="text-gradient">never stops.</span></h2>
+          <span className="eyebrow">CERTIFICATES</span>
+          <h2>Building <span className="text-gradient">knowledge</span></h2>
         </div>
         <p className="section-intro">
-          Courses, certificates and other learning experiences that have
-          helped me develop my skills.
+          Formal certifications tracking my academic progress, technical skills, and language proficiency.
         </p>
       </div>
 
