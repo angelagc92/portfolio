@@ -1780,3 +1780,8 @@ p {
   pointer-events: none;
   user-select: none;
 }
+
+.constellation-node text {
+  pointer-events: none;
+  user-select: none;
+}

@@ -72,8 +72,7 @@ export default function ValuesConstellation() {
   return (
     <section className="values-section">
       <div className="values-heading">
-        <span className="eyebrow">PERSONAL VALUES</span>
-        <h2>What drives me</h2>
+        <h2>Personal paradigm</h2>
       </div>
 
       <div className="constellation-wrap">
@@ -210,3 +209,4 @@ export default function ValuesConstellation() {
     </section>
   );
 }
+
